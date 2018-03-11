@@ -5,7 +5,7 @@ import sys
 import serial
 
 def printIndication(handle, value):
-    print value
+    #print value
     #val_str = binascii.unhexlify(''.join(value))
     #print val_str
     #print ' '.join(map(bin,bytearray(val_str)))
